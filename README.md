@@ -15,7 +15,7 @@ Para utilizar as funções de comunicação com a API, você precisa realizar os
 3. Abra o seu projeto e importe a pasta copiada.
 4.A aplicação utiliza as bibliotecas **Indy 10** e **System.JSON** para realizar a comunicação com a API e fazer a manipulação de dados JSON, respectivamente. As referências já estão referenciadas na classe.
 
-**OBS.:** Caso ocorra erro ao compilar o projeto(Could Not Load SSL Library), pode significar que o mesmo não possua, em sua pasta Debug, duas dlls essenciais para a execução do código. Veja mais informações de como resolver o problema neste post do nosso blog:[Erro de SSL](https://nstecnologia.com.br/blog/could-not-load-ssl-library/)
+**OBS.:** Caso ocorra erro ao compilar o projeto(Could Not Load SSL Library), pode significar que o mesmo não possua, em sua pasta Debug, duas dlls essenciais para a execução do código. Veja mais informações de como resolver o problema neste post do nosso blog: [Erro de SSL](https://nstecnologia.com.br/blog/could-not-load-ssl-library/)
 
 **Pronto!**  Agora, você já pode consumir a NS NF-e API através do seu sistema. Todas as funcionalidades de comunicação foram implementadas na classe NFeAPI.pas. Confira abaixo sobre realizar uma emissão completa.
 
